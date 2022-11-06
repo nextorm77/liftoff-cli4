@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://nex-liftoff-svr.cyclic.app/",
+  uri: "https://nex-liftoff-render-1.onrender.com",
   cache: new InMemoryCache(),
 });
 
