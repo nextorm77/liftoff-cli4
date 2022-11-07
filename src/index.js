@@ -6,6 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
   uri: "https://nex-liftoff-render-1.onrender.com",
+  //uri: "https://apollosvr.duckdns.org",
   cache: new InMemoryCache(),
 });
 
