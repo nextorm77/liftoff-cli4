@@ -5,8 +5,9 @@ import Pages from "./pages";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://nex-liftoff-render-1.onrender.com",
+  //uri: "https://nex-liftoff-render-1.onrender.com",
   //uri: "https://apollosvr.duckdns.org",
+  uri: "https://liftoff-svr-ts.onrender.com",
   cache: new InMemoryCache(),
 });
 
